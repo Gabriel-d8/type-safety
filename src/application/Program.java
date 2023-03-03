@@ -14,10 +14,10 @@ public class Program {
 		
 		PrintService<String> ps = new PrintService<>();
 		
-		System.out.print("Quantos valores? ");
-		int nQ = sc.nextInt();
+		System.out.print("How many values? ");
+		int n = sc.nextInt();
 		
-		for (int i = 1; i <= nQ; i++) {
+		for (int i = 1; i <= n; i++) {
 			ps.addValue(sc.next());
 		}
 		
